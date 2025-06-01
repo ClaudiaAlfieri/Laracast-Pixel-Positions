@@ -10,6 +10,6 @@
             <x-tag>Tag</x-tag>
             <x-tag>Tag</x-tag>
         </div>
-        <img src="http://placehold.it/42/42" alt="" class="rounded-xl">
+        <img src="http://picsum.photos/seed/{{ rand(0,100000)}}/42/42" alt="" class="rounded-xl">
     </div>
 </div>
