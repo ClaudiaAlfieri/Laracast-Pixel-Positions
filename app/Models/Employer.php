@@ -6,10 +6,17 @@ use App\Models\User;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
+
 class Employer extends Model
 {
-    public function user()  
+
+    use HasFactory;
+    public function user()
     {
         return $this->belongsTo(User::class);
     }
+      public function jobs()
+   {
+    return $this->hasMany(Job::class);
+   }
 };
