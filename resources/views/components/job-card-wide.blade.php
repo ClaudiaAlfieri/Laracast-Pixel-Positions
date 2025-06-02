@@ -1,11 +1,11 @@
-<div class="p-4 bg-white/5 rounded-xl flex gap-x-6">
+<div class="p-4 bg-white/5 rounded-xl flex gap-x-6 border border-transparent hover:border-blue-800 group transition-colors duration-300">
     <div>
         <x-employer-logo></x-employer-logo>
     </div>
     <div class="flex-1 flex flex-col">
         <a htef="#" class="self-start text-sm text-gray-400">Laracasts</a>
 
-        <h3 class="font-bold text-xg mt-3">Vídeo Producer</h3>
+        <h3 class="font-bold text-xg mt-3 group-hover:text-blue-800 text-xl transition-colors duration-300">Vídeo Producer</h3>
         <p class="text-sm text-gray-400 mt-auto">Full Time - From $60,000</p>
     </div>
     <div>
