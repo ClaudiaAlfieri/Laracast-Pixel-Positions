@@ -10,6 +10,6 @@
             <x-tag>Tag</x-tag>
             <x-tag>Tag</x-tag>
         </div>
-        <img src="http://picsum.photos/seed/{{ rand(0,100000)}}/42/42" alt="" class="rounded-xl">
+        <x-employer-logo :width="42"></x-employer-logo>
     </div>
 </div>
