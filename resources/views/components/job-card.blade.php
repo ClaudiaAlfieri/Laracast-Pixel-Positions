@@ -1,4 +1,4 @@
-<div class="p-4 bg-white/5 rounded-xl flex flex-col text-center border border-transparent hover:border-blue-800 group transition-colors duration-300">
+<x-panel class="flex flex-col text-center ">
     <div class="self-start text-sm">Laracasts</div>
     <div class="py-8">
         <h3 class="group-hover:text-blue-800 text-xl font-bold transition-colors duration-300">Vídeo Producer</h3>
@@ -12,4 +12,4 @@
         </div>
         <x-employer-logo :width="42"></x-employer-logo>
     </div>
-</div>
+</x-panel>
